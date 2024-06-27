@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(0deg, #d8eeee, #d8eeee 25%, #64b3c9 65%, #005986 90%, #005986);
+}
+.navbar-brand span{
+    font-size: 10px;
+    margin-left: 50px;
+}
+.special{
+    border: 2px solid #009ad8;
+
+}
+
+.nav-item{ 
+    padding-right: 18px;
+    transition: .4s;
+}
+.nav-item {
+    font-size: 14PX;
+}
+.nav-item :hover{
+    border: 2px solid #009ad8;
+
+}
+
+.card-body{
+    background-color:#005986;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card-body a{
+    font-size: 10px;
+}
+.card-text{
+    font-size: 10px;
+}
+.text input:hover{
+    border: 1px solid rgb(0, 154, 216);
+}
+.text input{
+
+    margin-left: 3%;
+    width: 30%;
+    background-color:#005986;
+    border-radius: 10px;
+    border: 2px solid #005986;
+}
+.text textarea:hover{
+    border: 1px solid rgb(0, 154, 216);
+}
+.text textarea{
+
+    margin-left: 3%;
+    width: 63%;
+    background-color:#005986;
+    border-radius: 10px;
+    border: 2px solid #005986;
+}
+.text-right{
+    text-align: right;
+    width: 20%;
+    margin-left: 74%;
+    font-size: 13px;
+}
+.email-text {
+    position: relative;
+    width: 80%;
+    height: 20px;
+    color: white;
+    padding: 20px 50px 20px 20px;
+    background: white;
+    border: 1px solid rgb(0, 154, 216);
+}
+.email-button{
+    position: absolute;
+    left:67%;
+    margin-top: 4px;
+    padding-inline: 12px;
+    padding-block: 1px;
+    background: #005986;
+    border: 4px solid #005986;
+    color: #fff;
+}
+.bgc-form{
+    background-color: #0808084f;
+}
+.copyrights{
+    font-size: 12px;
+    color: black;
+}

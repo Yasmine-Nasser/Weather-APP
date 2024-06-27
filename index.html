@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                BOOTSTRAP                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                F-AWESOME                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.min.css">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                   CSS                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               GOOGLE FONT                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  TITLE                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+    <title>weather</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-mynav ">
+        <div class="container pt-3">
+            <a class="navbar-brand pt-2 text-white" href="#">
+                <i class="fa-brands fa-cloudversify fa-2xl d-inline-block " style="color: #74C0FC;"></i>
+            Weather<br>
+            <span>tagline goes here</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0m me-5">
+                    <li class="nav-item ">
+                    <a class="nav-link special me-2 rounded-pill px-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special-1  rounded-pill me-2 px-3" aria-current="page" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special-2 rounded-pill me-2 px-3" aria-current="page" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special-3 me-2 rounded-pill px-3" aria-current="page" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special-4 me-2 rounded-pill px-3 " aria-current="page" href="index.contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="central" data-bg-image="./imgs/dab8244d4c2f7faf28a470bca2c6bfda[1].jpg" style="background-image: url(&quot;./imgs/dab8244d4c2f7faf28a470bca2c6bfda[1].jpg&quot;);">
+        <div class="bgc"></div>
+        <div class="container">
+            <form class="search">
+                <input type="text" placeholder="Find your location.." class="text rounded-pill" id="search">
+                <input type="button" value="Find" class="button rounded-pill" id="submit">
+            </form>
+        </div>
+        <div class="weather-forcast pt-5">
+            <div class="container">
+                <div class="today">
+                    <div class="card-group" id>
+                        <div class="card me-1 spec" id="today">
+                            <h5 class="float-start pt-3 px-3 fs-6" id="currentDay">wednesday</h5>
+                            <div class="card-body  text-dark" id="current">
+                                <h5 class="card-title cuntry text-dark">Alexandria</h5>
+                                <span class="card-text degree fs-2 float-start me-1" id="current-temp" >10</span>
+                                    <span class=" fs-5 ">o</span>
+                                    <span class=" fs-5">c</span>
+                                <div class="forecast-icon pt-3">
+                                    <img src="" alt="icon">
+                                    <p class="text-primary mt-2">sunny</p>
+                                    <div class="custom pb-3 text-primary mb-3" id="text"></div>
+                                    <span><i class="fa-solid fa-umbrella fa-sm" style="color: #4c4d4f;"></i>20%</span>
+                                    <span><i class="fa-solid fa-wind fa-sm ms-3" style="color: #4c4d4f;"></i>18km/h</span>
+                                    <span><i class="fa-regular fa-compass fa-sm ms-3" style="color: #4c4d4f;"></i>East</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="card me-1 spec" id="forecast">
+                            <h5 class="float-start pt-3 px-3 fs-6" id="">Thursday</h5>
+                            <div class="card-body  text-dark" id="current">
+                                <h5 class="card-title cuntry text-dark">Alexandria</h5>
+                                <span class="card-text degree fs-2 float-start me-1" id="forcast" >10</span>
+                                    <span class=" fs-5 ">o</span>
+                                    <span class=" fs-5">c</span>
+                                <div class="forecast-icon pt-3">
+                                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="90" id="forIcon"></div>
+                                    <div class="custom pb-3 text-primary" id="textcond"></div>
+                                </div>
+                            
+                        </div>
+                        <div class="card me-1 spec">
+                            <h5 class="d-flex justify-content-between align-items-center pt-3 px-3 fs-6" id="after">friday</h5>
+                                <h5 class="card-title cuntry mb-2">Alexandria</h5>
+                                <span class="card-text degree fs-2 float-start me-1 " id="after" >10</span>
+                                    <span class=" fs-5 ">o</span>
+                                    <span class=" fs-5">c</span>
+                                <div class="forecast-icon pt-3 mb-3">
+                                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="90" id="endIcon">
+                                </div>
+                                <div class="custom pb-3 text-primary" id="condText"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="bgc-form w-100 h-50 position-absolute mt-5">
+        <div class="site-footer w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mb-5">
+                        <form class="email-search ps-5 pt-5 mt-3 position-relative">
+                            <input type="text" placeholder="Enter your email to subscribe..." class="email-text rounded-pill " id="search">
+                            <input type="button" value="Subscribe" class="email-button rounded-pill">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 pt-2 mb-5">
+                        <div class="social-icons pt-5 mt-3">
+                            <a href="#"><i class="fa-brands fa-facebook fa-xl me-3 ms-5" style="color: #74C0FC;"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter fa-xl me-3" style="color: #74C0FC;"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g fa-xl me-3" style="color: #74C0FC;"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest fa-xl me-3" style="color: #74C0FC;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyrights mt-5 ms-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    </body>
+</html>

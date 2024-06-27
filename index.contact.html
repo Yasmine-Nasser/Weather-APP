@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                BOOTSTRAP                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                F-AWESOME                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.min.css">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                   CSS                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+    <link rel="stylesheet" href="./css/style.contact.css">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               GOOGLE FONT                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  TITLE                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+    <title>weather</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-mynav ">
+        <div class="container pt-3">
+            <a class="navbar-brand pt-2 text-white" href="#">
+                <i class="fa-brands fa-cloudversify fa-2xl d-inline-block " style="color: #74C0FC;"></i>
+            Weather<br>
+            <span>tagline goes here</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0m me-5">
+                    <li class="nav-item ">
+                    <a class="nav-link special-4 me-2 rounded-pill px-3" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special-1  rounded-pill me-2 px-3" aria-current="page" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special-2 rounded-pill me-2 px-3" aria-current="page" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special-3 me-2 rounded-pill px-3" aria-current="page" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link special me-2 rounded-pill px-3" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container fw-bold">
+        <a class="nav-link mt-4 special text-white me-3 rounded-pill px-3" aria-current="site" href="index.html">Home <i class="fa-solid fa-arrow-right-arrow-left fa-xs mx-2" style="color: #383c42;"></i>contact</a>
+    </div>
+    <div class="map">
+        <div class="container">
+            <div class="card mt-5 float-start" style="width: 18rem;">
+                <div class="card-body">
+                    <address>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464820.13724046724!2d39.28787783655471!3d24.471339929774302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbe5197d220d5%3A0x2e54514fea3b08d9!2sMadinah%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1719344110964!5m2!1sen!2seg" width="250" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <i class="fa-solid fa-location-dot fa-sm me-2 float-start mt-2" style="color: #74C0FC;"></i>
+                        <p class="card-text">Company Name INC.
+                            Madinah
+                            Saudi Arabia
+                            </p>
+                        <a href="#" class="text-decoration-none text-white-50 mb-2"><img src="https://routeweather.netlify.app/images/icon-phone@2x.png" alt="" width="19" height="19" class="me-2 mb-2">+1 800 314 235</a>
+                        <a href="#" class="text-decoration-none text-white-50 float-start me-2"><img src="https://routeweather.netlify.app/images/icon-envelope@2x.png" alt="" width="16" height="12" class="me-2">contact@companyname.com</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+        <h5 class="text-center mt-5 text-dark fw-bold">Contact us</h5>
+        <p class="text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam blanditiis<br> corporis quam unde assumenda quasi earum minima vel culpa dolor!</p>
+        <div class="text mt-5">
+            <input type="text" class="form-name ps-3 p-3 rounded-pill" required placeholder="Your Name..">
+            <input type="email" class="form-email ps-3 p-3 rounded-pill " required placeholder="Email Address.."><br><br>
+            <input type="email" class="form-subject ps-3 p-3 rounded-pill" required placeholder="Company Name..">
+            <input type="email" class="form-subject ps-3 p-3 rounded-pill" required placeholder="Website.."><br><br>
+            <textarea name="" class="form-message ps- p-3 rounded-pill" id="" placeholder="Message.."></textarea>
+            <div class="text-right">
+                <input type="submit" placeholder="Send message" class="submit py-2 px-2 mt-2 text-white rounded-pill mb-5">
+            </div>
+        </div>
+    </form>
+    <div class="bgc-form w-100 h-50 position-absolute ">
+        <div class="site-footer w-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mb-5">
+                        <form class="email-search ps-5 pt-5 position-relative">
+                            <input type="text" placeholder="Enter your email to subscribe..." class="email-text rounded-pill" id="search">
+                            <input type="button" value="Subscribe" class="email-button rounded-pill">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 pt-2 mb-5">
+                        <div class="social-icons pt-5">
+                            <a href="#"><i class="fa-brands fa-facebook fa-xl me-3 ms-5" style="color: #74C0FC;"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter fa-xl me-3" style="color: #74C0FC;"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g fa-xl me-3" style="color: #74C0FC;"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest fa-xl me-3" style="color: #74C0FC;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyrights mt-5 ms-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
